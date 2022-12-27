@@ -9,7 +9,7 @@
  */
 public class Comparators {
     /**
-     * @param a the first number to be compared.
+     * @param a the first number to be compared.0
      * @param b the second number to be compared.
      * @return true if a is equal to b, false otherwise.
      */
