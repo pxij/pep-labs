@@ -13,9 +13,11 @@ public class GreaterOrLesser {
         String L = "Lesser";
         String G = "Greater";
         if (a<b){ 
-        return L;}
+            return L;
+        }
         if (a>b) { 
-        return G;}
+            return G;
+        }
         return "Equal";
     }
 }
