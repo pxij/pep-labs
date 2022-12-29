@@ -15,11 +15,20 @@ public class FizzBuzz {
      * divisible by both, return 'FizzBuzz'. If none of these are true, return a blank string "".
      */
     public String FizzBuzzGen(int n){
-    String F = "Fizz";
-    String B = "Buzz";
-        if( ){
-
+        String F = "Fizz";
+        String B = "Buzz";
+        String FB = "FizzBuzz";
+        String blank = "";
+        
+        if(n%5 == 0 && n%3 == 0){
+            return FB;
         }
-        return "";
+        if(n%3 == 0){
+            return F;
+        }
+        if(n%5 == 0){
+            return B;
+        }
+            return blank;
     }
 }
