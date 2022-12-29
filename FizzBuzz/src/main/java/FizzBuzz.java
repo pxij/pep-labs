@@ -19,7 +19,7 @@ public class FizzBuzz {
         String B = "Buzz";
         String FB = "FizzBuzz";
         String blank = "";
-        
+
         if(n%5 == 0 && n%3 == 0){
             return FB;
         }
@@ -29,6 +29,7 @@ public class FizzBuzz {
         if(n%5 == 0){
             return B;
         }
-            return blank;
+        
+        return blank;
     }
 }
